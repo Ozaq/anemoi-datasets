@@ -57,7 +57,7 @@ dependencies = [
   "pyyaml",
   "semantic-version",
   "tqdm",
-  "zarr<=2.17",
+  "zarr@git+https://github.com/Ozaq/zarr-python.git@track_file_open",
 ]
 
 optional-dependencies.all = [
